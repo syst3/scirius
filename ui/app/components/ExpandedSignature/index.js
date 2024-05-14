@@ -46,7 +46,7 @@ export const Row = styled.div`
   gap: 0.5rem;
 `;
 
-export const ExpandedSignature = ({ rule, Flow, additionalCards }) => {
+export const ExpandedSignature = ({ rule, Flow, additionalCards = [] }) => {
   const items = [];
   if (rule.versions?.length > 1) {
     rule.versions
