@@ -64,7 +64,7 @@ const ENDPOINT = {
   },
   DASHBOARD_PANEL_NO_FILTER: {
     name: 'Fetch dashboard panel',
-    url: '/rest/rules/es/fields_stats/:datesEs:tenant',
+    url: '/rest/rules/es/fields_stats/:datesEs:tenant:eventTypes',
   },
   FIELD_STATS: {
     name: 'Fetch Elasticsearch field stats',
@@ -89,6 +89,10 @@ const ENDPOINT = {
   SIGNATURES: {
     name: 'Fetching signature',
     url: `/rest/rules/rule/:datesEs:filters:qFilter:eventTypes:withAlerts:tenant`,
+  },
+  SIGNATURE: {
+    name: 'Fetching signature',
+    url: `/rest/rules/rule/$sid`,
   },
   ELASTIC_SEARCH: {
     name: 'Fetching elasticsearch data',
