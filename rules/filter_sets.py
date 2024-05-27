@@ -4,8 +4,8 @@ FILTER_SETS = [
     {
         'content': [
             {
-                'value': 1,
-                'label': 'Alerts min: 1',
+                'value': 2,
+                'label': 'Alerts min: 2',
                 'fullString': True,
                 'query': 'rest',
                 'negated': False,
